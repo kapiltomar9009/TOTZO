@@ -1,0 +1,230 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background and general layout */
+body {
+    font-family: 'Arial', sans-serif;
+    /* Replace this URL with a suitable kids' footwear background image */
+    background:URL("C:\Users\zack_\OneDrive\Desktop\tot\gallary\abstract fluid doodle background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #0a0909;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+	
+	
+    background-image: url('C:/Users/zack_/OneDrive/Desktop/tot/gallary/abstract fluid doodle background.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    background-position: center; /* Centers the image */
+	
+	body, html {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default paddings */
+    height: 100%; /* Ensure the body and html take the full height */
+}
+
+.header {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Horizontally center items */
+    justify-content: center; /* Vertically center items */
+    height: 100vh; /* Make the header fill the entire viewport height */
+    text-align: center; /* Center the text content */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a background to make the text readable */
+    padding: 20px; /* Add spacing inside the header */
+    box-sizing: border-box; /* Include padding in height/width calculations */
+}
+
+.logo img {
+    max-width: 500px; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.brand-name {
+    font-size: 2.5rem; /* Adjust the font size */
+    margin: 10px 0; /* Space around the brand name */
+}
+
+.header p {
+    font-size: 1.2rem; /* Adjust font size for the tagline */
+    margin: 5px 0; /* Space between elements */
+}
+
+.address {
+    margin-top: 20px; /* Add space above the address section */
+    font-size: 1.5rem; /* Adjust the font size */
+}
+
+}
+}
+
+/* Header styles */
+.header {
+	.header {
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Aligns items vertically */
+    align-items: center; /* Centers items horizontally */
+    justify-content: center; /* Centers items vertically */
+    text-align: center; /* Ensures text is centered */
+    padding: 20px; /* Adds spacing inside the header */
+}
+
+.logo img {
+    max-width: 150px; /* Adjust the size of the logo */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.brand-name {
+    font-size: 2rem; /* Adjust the font size as needed */
+    margin: 10px 0; /* Adds spacing between elements */
+}
+
+.header p {
+    font-size: 1rem; /* Adjust font size for the tagline */
+    margin: 5px 0; /* Adds spacing */
+}
+
+	
+    text-align: center;
+    padding: 100px 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.logo img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.brand-name {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.5em;
+}
+
+/* Gallery section */
+.gallery {
+    text-align: center;
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px 20px;
+}
+
+.gallery h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Social Media Section */
+.social-media {
+    text-align: center;
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    position: relative;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .brand-name {
+        font-size: 3em;
+    }
+
+    .header p {
+        font-size: 1.2em;
+    }
+
+    .social-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social-links img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 50px 20px;
+    }
+
+    .gallery h2 {
+        font-size: 2em;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .brand-name {
+        font-size: 2.5em;
+    }
+
+    .header p {
+        font-size: 1em;
+    }
+
+    .social-links img {
+        width: 40px;
+        height: 40px;
+    }
+}
