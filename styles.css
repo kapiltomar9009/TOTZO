@@ -45,6 +45,7 @@ body {
 .logo img {
     max-width: 500px; /* Adjust logo size */
     height: auto; /* Maintain aspect ratio */
+	justify-content:center;
 }
 
 .brand-name {
@@ -79,6 +80,8 @@ body {
 .logo img {
     max-width: 150px; /* Adjust the size of the logo */
     height: auto; /* Maintains aspect ratio */
+	justify-content:center;
+	
 }
 
 .brand-name {
@@ -101,6 +104,7 @@ body {
     max-width: 300px;
     height: auto;
     margin-bottom: 50px;
+	justify-content:center;
 }
 
 .brand-name {
@@ -204,7 +208,10 @@ body {
 
 @media (max-width: 480px) {
     .header {
-        padding: 50px 20px;
+       padding: 50px 20px;
+		justify-content:center;
+		width:100vw;
+		
     }
 
     .gallery h2 {
