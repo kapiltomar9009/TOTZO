@@ -9,7 +9,7 @@
 body {
     font-family: 'Arial', sans-serif;
     /* Replace this URL with a suitable kids' footwear background image */
-    background:URL("C:\Users\zack_\OneDrive\Desktop\tot\gallary\abstract fluid doodle background.jpg") no-repeat center center fixed;
+    background:URL(".\images\abstract fluid doodle background.jpg") no-repeat center center fixed;
     background-size: cover;
     color: #0a0909;
     padding: 0;
@@ -18,7 +18,7 @@ body {
     height: 100vh;
 	
 	
-    background-image: url('C:/Users/zack_/OneDrive/Desktop/tot/gallary/abstract fluid doodle background.jpg');
+    background-image: url('./images/abstract fluid doodle background.jpg');
     background-size: cover; /* Ensures the image covers the entire background */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed; /* Keeps the background fixed when scrolling */
